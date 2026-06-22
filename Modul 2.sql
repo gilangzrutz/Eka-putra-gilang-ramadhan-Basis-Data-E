@@ -1,7 +1,7 @@
 -- Nama : Eka putra gilang ramadhan
 -- NIM : 24241166
 -- Kelas : PTI E
--- Modul : 1
+-- Modul : 2
 
 -- membuat database
 CREATE DATABASE kelas_e_mart;
@@ -92,6 +92,18 @@ nama_produk varchar(20),
 harga float
 );
 
+INSERT INTO produk (kode_produk, kategori_produk, nama_produk, harga) 
+VALUES 
+("prod-01", "Alat Tulis Kantor", "Kotak Pensil DQLab", 62500.0),
+("prod-02", "Aksesoris Komputer", "Flashdisk DQLab 64 GB", 55000.0),
+("prod-03", "Gift & Voucher", "Gift Voucher DQLab 100rb", 100000.0),
+("prod-04", "Aksesoris Komputer", "Flashdisk DQLab 32 GB", 40000.0),
+("prod-05", "Gift & Voucher", "Gift Voucher DQLab 250rb", 250000.0),
+("prod-06", "Alat Tulis Kantor", "Pulpen Multifunction + Laser DQLab", 92500.0),
+("prod-07", "Gift & Voucher", "Tas Travel Organizer DigiSkills.id", 48000.0),
+("prod-08", "Gift & Voucher", "Gantungan Kunci DQLab", 15800.0),
+("prod-09", "Alat Tulis Kantor", "Buku Planner Agenda DQLab", 92000.0),
+("prod-10", "Alat Tulis Kantor", "Sticky Notes DQLab 500 sheets", 55000.0);
 
 INSERT INTO produk (kode_produk, no_urut, kategori_produk, nama_produk, harga) 
 VALUES 
@@ -106,4 +118,4 @@ VALUES
 ("prod-09", "9", "Alat Tulis Kantor", "Buku Planner Agenda DQLab", 92000.0),
 ("prod-10", "10", "Alat Tulis Kantor", "Sticky Notes DQLab 500 sheets", 55000.0);
 
-select * from produk;
+select * from pelanggan;
